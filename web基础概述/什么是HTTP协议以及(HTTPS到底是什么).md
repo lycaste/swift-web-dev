@@ -13,19 +13,20 @@
 
 什么是HTTP协议，其实HTTP协议就是一串固定格式的文本
 
-| 1 | 2 | 3 | 4 | 5 | 6 |
-| -- | -- | -- | -- | -- | -- |
-| http方法 | sp |URL | SP | http版本 | cr-lf |
-| header field  | ： | field -value | cr-lf |  |  |
-| body |  |  |  |  |  | |
+| 1            | 2    | 3            | 4     | 5      | 6     |
+| ------------ | ---- | ------------ | ----- | ------ | ----- |
+| http方法       | sp   | URL          | SP    | http版本 | cr-lf |
+| header field | ：    | field -value | cr-lf |        |       |
+| body         |      |              |       |        |       |
 
-| 1 | 2 | 3 | 4 | 5 | 6 |
-| -- | -- | -- | -- | -- | -- |
-| http版本 | sp |状态码 | SP | 状态 | cr-lf |
-| header field  | ： | field -value | cr-lf |  |  |
-| header field  | ： | field -value | cr-lf |  |  |
-| cr-lf-cr-lf |  |  |  |  |  | 
-| body |  |  |  |  |  | |
+
+| 1            | 2    | 3            | 4     | 5    | 6     |
+| ------------ | ---- | ------------ | ----- | ---- | ----- |
+| http版本       | sp   | 状态码          | SP    | 状态   | cr-lf |
+| header field | ：    | field -value | cr-lf |      |       |
+| header field | ：    | field -value | cr-lf |      |       |
+| cr-lf-cr-lf  |      |              |       |      |       |
+| body         |      |              |       |      |       |
 
    
 
